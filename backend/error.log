@@ -10,3 +10,9 @@
     at async model.$__save (D:\marathon\consistency\backend\node_modules\mongoose\lib\model.js:394:5)
     at async model.save (D:\marathon\consistency\backend\node_modules\mongoose\lib\model.js:664:5)
     at async D:\marathon\consistency\backend\routes\auth.js:20:23
+[SIGNUP ERROR] 2026-03-23T21:11:35.828Z: TypeError: next is not a function
+    at model.<anonymous> (D:\marathon\consistency\backend\models\User.js:26:5)
+    at async Kareem.execPre (D:\marathon\consistency\backend\node_modules\kareem\index.js:70:24)
+    at async model.$__save (D:\marathon\consistency\backend\node_modules\mongoose\lib\model.js:394:5)
+    at async model.save (D:\marathon\consistency\backend\node_modules\mongoose\lib\model.js:664:5)
+    at async D:\marathon\consistency\backend\routes\auth.js:20:23
